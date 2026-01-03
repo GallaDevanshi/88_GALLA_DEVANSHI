@@ -20,23 +20,25 @@ Generate individual-level explanations for predictions
 Produce actionable insights for business teams
 Ensure transparency and trust using Explainable AI (XAI)
 
-**Dataset**
-Source: IBM Telco Customer Churn Dataset (Kaggle)
-🔗 Dataset Link: https://www.kaggle.com/datasets/blastchar/telco-customer-churn
+**Dataset
+Source:** IBM Telco Customer Churn Dataset (Kaggle)
+🔗 **Dataset Link**: https://www.kaggle.com/datasets/blastchar/telco-customer-churn
 
 Dataset Overview
-7043 customers
-21 features
+7043 customers,
+21 features.
 Includes:
-Customer demographics
-Service subscriptions
-Contract & billing information
+Customer demographics,
+Service subscriptions,
+Contract & billing information,
 Target variable: Churn (Yes/No)
 
 
 **Design**
 
-**1.Data Ingestion**:Load Telco churn dataset from Kaggle
+**1.Data Ingestion**
+
+Load Telco churn dataset from Kaggle
 
 **2.Data Preprocessing**
 
@@ -78,6 +80,7 @@ Export churn scores to CSV
 Save SHAP explanation plots
 
 Provide business-friendly insights 
+
 
 
 **Technologies Used**
