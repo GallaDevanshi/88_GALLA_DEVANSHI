@@ -36,9 +36,9 @@ Target variable: Churn (Yes/No)
 
 **Design**
 
-1.Data Ingestion:Load Telco churn dataset from Kaggle
+**1.Data Ingestion**:Load Telco churn dataset from Kaggle
 
-2.Data Preprocessing
+**2.Data Preprocessing**
 
 Handle missing values
 
@@ -46,25 +46,24 @@ Encode categorical variables
 
 Convert target labels to binary format
 
-3.Feature Engineering
+**3.Feature Engineering**
 
 Prepare numerical and categorical features
 
 Normalize/transform where required
 
-4.Model Training
+**4.Model Training**
 
 Train LightGBM classifier
 
 Optimize performance using validation data
 
-5.Churn Prediction
-
+**5.Churn Prediction**
 Generate churn probabilities for all customers
 
 Classify customers as high-risk or low-risk
 
-6.Explainability Layer (SHAP)
+**6.Explainability Layer (SHAP)**
 
 Compute SHAP values
 
@@ -72,7 +71,7 @@ Generate waterfall plots for selected customers
 
 Identify top churn-driving factors
 
-7.Output Generation
+**7.Output Generation**
 
 Export churn scores to CSV
 
@@ -81,18 +80,26 @@ Save SHAP explanation plots
 Provide business-friendly insights 
 
 
-Technologies Used
+**Technologies Used**
+
 1️.Python
+
 2️.LightGBM
+
 3️.SHAP (SHapley Additive Explanations)
+
 4️.Pandas & NumPy
+
 5️.Matplotlib / Seaborn
+
 6️.FastAPI
+
 Deploys the model as a REST API
+
 Allows real-time churn prediction via /score endpoint
 
 
-Assumptions
+**Assumptions**
 
 1.Historical behavior predicts future churn
 The model assumes that past customer behavior (usage, billing, contract type, services subscribed) is indicative of future churn behavior.
