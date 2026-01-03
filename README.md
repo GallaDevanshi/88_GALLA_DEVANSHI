@@ -37,10 +37,13 @@ Target variable: Churn (Yes/No)
 **Design**
 
 1.Data Ingestion:Load Telco churn dataset from Kaggle
+
 2.Data Preprocessing
 
 Handle missing values
+
 Encode categorical variables
+
 Convert target labels to binary format
 
 3.Feature Engineering
